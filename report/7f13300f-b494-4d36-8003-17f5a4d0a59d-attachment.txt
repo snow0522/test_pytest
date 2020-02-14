@@ -1,0 +1,3 @@
+[32mINFO    [0m root:api_employee.py:24 修改员工信息：{'username': 'xxxiii-new'}
+[32mINFO    [0m root:api_employee.py:25 修改员工接口：URL:http://182.92.81.159/api/sys/user/1228288890540216320,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+[32mINFO    [0m root:test02_employee.py:28 修改员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288890540216320'}}

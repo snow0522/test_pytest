@@ -1,0 +1,46 @@
+
+2020-02-14 19:54:57,529 INFO [api_login.py(login:14)] - 登录数据为：{'mobile': '13800000002', 'password': '123456'}
+2020-02-14 19:54:57,529 INFO [api_login.py(login:15)] - 登录接口：URL:http://182.92.81.159/api/sys/login,信息头:{'Content-Type': 'application/json'}
+2020-02-14 19:54:57,651 INFO [test01_login.py(test_login:20)] - 登录接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '45ecd952-3876-41b5-8a92-f38d50fe4f43'}
+2020-02-14 19:54:57,651 INFO [test01_login.py(test_login:25)] - token值：45ecd952-3876-41b5-8a92-f38d50fe4f43
+2020-02-14 19:54:57,695 INFO [api_employee.py(add_emp:17)] - 添加员工信息：{'username': 'hhhaaa', 'mobile': '16722221111', 'workNumber': '355656'}
+2020-02-14 19:54:57,695 INFO [api_employee.py(add_emp:18)] - 添加员工接口：URL:http://182.92.81.159/api/sys/user,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 45ecd952-3876-41b5-8a92-f38d50fe4f43'}
+2020-02-14 19:54:57,823 INFO [test02_employee.py(test_01_add:19)] - 添加员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228286490156814336'}}
+2020-02-14 19:54:57,824 INFO [test02_employee.py(test_01_add:23)] - ID值：1228286490156814336
+2020-02-14 19:54:58,032 INFO [api_employee.py(update_emp:24)] - 修改员工信息：{'username': 'xxxiii-new'}
+2020-02-14 19:54:58,032 INFO [api_employee.py(update_emp:25)] - 修改员工接口：URL:http://182.92.81.159/api/sys/user/1228286490156814336,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 45ecd952-3876-41b5-8a92-f38d50fe4f43'}
+2020-02-14 19:54:58,168 INFO [test02_employee.py(test_02_update:28)] - 修改员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228286490156814336'}}
+2020-02-14 19:54:58,220 INFO [api_employee.py(search_emp:29)] - 查询员工接口：URL:http://182.92.81.159/api/sys/user/1228286490156814336,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 45ecd952-3876-41b5-8a92-f38d50fe4f43'}
+2020-02-14 19:54:58,338 INFO [test02_employee.py(test_03_search:33)] - 查询员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228286490156814336', 'mobile': '16722221111', 'username': 'xxxiii-new', 'password': 'c47af55dab417f8def1cedae7b95a455', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '355656', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-14 19:54:58,441 INFO [api_employee.py(delete_emp:33)] - 删除员工接口：URL:http://182.92.81.159/api/sys/user/1228286490156814336,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 45ecd952-3876-41b5-8a92-f38d50fe4f43'}
+2020-02-14 19:54:58,557 INFO [test02_employee.py(test_04_delete:38)] - 删除员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-14 20:02:15,256 INFO [api_login.py(login:14)] - 登录数据为：{'mobile': '13800000002', 'password': '123456'}
+2020-02-14 20:02:15,256 INFO [api_login.py(login:15)] - 登录接口：URL:http://182.92.81.159/api/sys/login,信息头:{'Content-Type': 'application/json'}
+2020-02-14 20:02:15,376 INFO [test01_login.py(test_login:20)] - 登录接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd75d8cd5-fff6-4521-8d32-ced94a1624ac'}
+2020-02-14 20:02:15,376 INFO [test01_login.py(test_login:25)] - token值：d75d8cd5-fff6-4521-8d32-ced94a1624ac
+2020-02-14 20:02:15,421 INFO [api_employee.py(add_emp:17)] - 添加员工信息：{'username': 'hhhaaa', 'mobile': '16722221111', 'workNumber': '355656'}
+2020-02-14 20:02:15,421 INFO [api_employee.py(add_emp:18)] - 添加员工接口：URL:http://182.92.81.159/api/sys/user,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer d75d8cd5-fff6-4521-8d32-ced94a1624ac'}
+2020-02-14 20:02:15,541 INFO [test02_employee.py(test_01_add:19)] - 添加员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288326129504256'}}
+2020-02-14 20:02:15,542 INFO [test02_employee.py(test_01_add:23)] - ID值：1228288326129504256
+2020-02-14 20:02:15,584 INFO [api_employee.py(update_emp:24)] - 修改员工信息：{'username': 'xxxiii-new'}
+2020-02-14 20:02:15,584 INFO [api_employee.py(update_emp:25)] - 修改员工接口：URL:http://182.92.81.159/api/sys/user/1228288326129504256,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer d75d8cd5-fff6-4521-8d32-ced94a1624ac'}
+2020-02-14 20:02:15,700 INFO [test02_employee.py(test_02_update:28)] - 修改员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288326129504256'}}
+2020-02-14 20:02:15,739 INFO [api_employee.py(search_emp:29)] - 查询员工接口：URL:http://182.92.81.159/api/sys/user/1228288326129504256,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer d75d8cd5-fff6-4521-8d32-ced94a1624ac'}
+2020-02-14 20:02:15,846 INFO [test02_employee.py(test_03_search:33)] - 查询员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288326129504256', 'mobile': '16722221111', 'username': 'xxxiii-new', 'password': 'c47af55dab417f8def1cedae7b95a455', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '355656', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-14 20:02:15,906 INFO [api_employee.py(delete_emp:33)] - 删除员工接口：URL:http://182.92.81.159/api/sys/user/1228288326129504256,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer d75d8cd5-fff6-4521-8d32-ced94a1624ac'}
+2020-02-14 20:02:16,030 INFO [test02_employee.py(test_04_delete:38)] - 删除员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-14 20:04:29,810 INFO [api_login.py(login:14)] - 登录数据为：{'mobile': '13800000002', 'password': '123456'}
+2020-02-14 20:04:29,810 INFO [api_login.py(login:15)] - 登录接口：URL:http://182.92.81.159/api/sys/login,信息头:{'Content-Type': 'application/json'}
+2020-02-14 20:04:29,921 INFO [test01_login.py(test_login:20)] - 登录接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+2020-02-14 20:04:29,922 INFO [test01_login.py(test_login:25)] - token值：054d18af-6a5a-45f9-bac8-7fc7c3dab3cb
+2020-02-14 20:04:29,984 INFO [api_employee.py(add_emp:17)] - 添加员工信息：{'username': 'hhhaaa', 'mobile': '16722221111', 'workNumber': '355656'}
+2020-02-14 20:04:29,984 INFO [api_employee.py(add_emp:18)] - 添加员工接口：URL:http://182.92.81.159/api/sys/user,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+2020-02-14 20:04:30,104 INFO [test02_employee.py(test_01_add:19)] - 添加员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288890540216320'}}
+2020-02-14 20:04:30,105 INFO [test02_employee.py(test_01_add:23)] - ID值：1228288890540216320
+2020-02-14 20:04:30,154 INFO [api_employee.py(update_emp:24)] - 修改员工信息：{'username': 'xxxiii-new'}
+2020-02-14 20:04:30,154 INFO [api_employee.py(update_emp:25)] - 修改员工接口：URL:http://182.92.81.159/api/sys/user/1228288890540216320,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+2020-02-14 20:04:30,278 INFO [test02_employee.py(test_02_update:28)] - 修改员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288890540216320'}}
+2020-02-14 20:04:30,318 INFO [api_employee.py(search_emp:29)] - 查询员工接口：URL:http://182.92.81.159/api/sys/user/1228288890540216320,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+2020-02-14 20:04:30,427 INFO [test02_employee.py(test_03_search:33)] - 查询员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288890540216320', 'mobile': '16722221111', 'username': 'xxxiii-new', 'password': 'c47af55dab417f8def1cedae7b95a455', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '355656', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-14 20:04:30,470 INFO [api_employee.py(delete_emp:33)] - 删除员工接口：URL:http://182.92.81.159/api/sys/user/1228288890540216320,信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+2020-02-14 20:04:30,595 INFO [test02_employee.py(test_04_delete:38)] - 删除员工接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

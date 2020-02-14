@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581681869796" stop="1581681870615">
+  <name>scrips</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1581681869796" status="passed" stop="1581681869942">
+      <name>test01_login.Test_Login.test_login[13800000002-123456]</name>
+      <attachments>
+        <attachment source="c850d080-3485-4df0-8053-044193c8e794-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6872-MainThread"/>
+        <label name="host" value="PC-20191026BGIY"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681869970" status="passed" stop="1581681870113">
+      <name>test02_employee.Test_Employee.test_01_add[hhhaaa-16722221111-355656]</name>
+      <attachments>
+        <attachment source="13dee8b4-7d21-47f4-9b0b-aff7721605ba-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6872-MainThread"/>
+        <label name="host" value="PC-20191026BGIY"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681870143" status="passed" stop="1581681870284">
+      <name>test02_employee.Test_Employee.test_02_update</name>
+      <attachments>
+        <attachment source="7f13300f-b494-4d36-8003-17f5a4d0a59d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6872-MainThread"/>
+        <label name="host" value="PC-20191026BGIY"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681870309" status="passed" stop="1581681870433">
+      <name>test02_employee.Test_Employee.test_03_search</name>
+      <attachments>
+        <attachment source="7fdcb94e-cad7-4348-96b2-2b6aa4cc37a1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6872-MainThread"/>
+        <label name="host" value="PC-20191026BGIY"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681870460" status="passed" stop="1581681870615">
+      <name>test02_employee.Test_Employee.test_04_delete</name>
+      <attachments>
+        <attachment source="247c4c2e-7e17-4066-9b8a-eaca008628b9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6872-MainThread"/>
+        <label name="host" value="PC-20191026BGIY"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

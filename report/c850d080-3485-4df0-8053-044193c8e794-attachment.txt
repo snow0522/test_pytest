@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_login.py:14 登录数据为：{'mobile': '13800000002', 'password': '123456'}
+[32mINFO    [0m root:api_login.py:15 登录接口：URL:http://182.92.81.159/api/sys/login,信息头:{'Content-Type': 'application/json'}
+[32mINFO    [0m root:test01_login.py:20 登录接口返回信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '054d18af-6a5a-45f9-bac8-7fc7c3dab3cb'}
+[32mINFO    [0m root:test01_login.py:25 token值：054d18af-6a5a-45f9-bac8-7fc7c3dab3cb
