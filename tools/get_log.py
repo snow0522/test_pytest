@@ -1,6 +1,6 @@
 # 导包
 import logging.handlers
-# 新建 类
+# 新建类
 from config import base_path
 import os
 
